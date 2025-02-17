@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <main className="">
-      <div className="py-20 px-[16%]">
+      <div id="hero" className="py-20 px-[16%]">
         <div
           className="rounded-3xl w-full h-[400px] bg-primary-foreground mx-auto bg-cover flex flex-col justify-center items-center"
           style={{ backgroundImage: "url('/images/header-bg.svg')" }}
@@ -64,12 +64,12 @@ export default function Home() {
           ></div>
         </div>
       </div>
-      <div className="pb-24">
+      <div id="founders" className="pb-24">
         <TextTitle>Meet Our Founders</TextTitle>
         <Intro data={intr} />
         <Intro data={intrB} />
       </div>
-      <div className="py-20 px-[7%]">
+      <div id="product" className="py-20 px-[7%]">
         <TextTitle>Our Product</TextTitle>
         <div className="pt-20 pb-6 grid grid-cols-7 gap-12">
           <div className="col-span-4">
@@ -158,7 +158,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="py-20 pt-[200px]">
+        <div id="contact" className="py-20 pt-[200px]">
           <TextTitle>Contact Us</TextTitle>
 
           <div className="w-full grid grid-cols-2 gap-6">
