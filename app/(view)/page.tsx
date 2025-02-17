@@ -224,18 +224,18 @@ export default function Home() {
                 {/* Content */}
                 <div className="relative space-y-6 text-white w-full py-8">
                   <div className="space-y-1">
-                    <h2 className="text-2xl font-semibold">Samuel Kokomoor</h2>
-                    <p className="text-zinc-400">Co-founder/CFO</p>
+                    <h2 className="text-2xl font-semibold">Alexander Ali</h2>
+                    <p className="text-zinc-400">Co-founder/CTO</p>
                   </div>
 
                   <div className="space-y-4 w-2/3 mx-auto">
                     <div className="flex items-center gap-3">
                       <PhoneIcon className="h-5 w-5" />
-                      <span>(860) 389-5347</span>
+                      <span>(401) 218-9286</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <MailIcon className="h-5 w-5" />
-                      <span>skokomoor@gauntlet42.com</span>
+                      <span>aali@gauntlet42.com </span>
                     </div>
                   </div>
                 </div>
