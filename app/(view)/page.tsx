@@ -71,7 +71,7 @@ export default function Home() {
       </div>
       <div className="py-20 px-[7%]">
         <TextTitle>Our Product</TextTitle>
-        <div className="py-20 grid grid-cols-7 gap-12">
+        <div className="pt-20 pb-6 grid grid-cols-7 gap-12">
           <div className="col-span-4">
             <Image
               src="/images/prod-a.webp"
@@ -104,28 +104,6 @@ export default function Home() {
               connection, Spyglass provides all the functionality you need so
               that you can focus on surveying, not paperwork.
             </p>
-            <div className="pt-12">
-              <h2 className="text-2xl flex flex-row justify-start items-center gap-2">
-                <Image
-                  src="/svg/target.svg"
-                  height={64}
-                  width={64}
-                  alt="target-ico"
-                  className="size-8"
-                />{" "}
-                Our Mission
-              </h2>
-              <p className="text-lg pt-4">
-                Spyglass is a cutting-edge automated software tool that aims to
-                revolutionize surveying and property management. By leveraging
-                AI and machine learning, we gather and compile relevant public
-                records, empowering our users to streamline their workflows,
-                save valuable time, and optimize costs for every job. We are
-                committed to putting the latest and greatest technology to work
-                for you, striving for efficiency, accuracy, and success in all
-                your endeavors.
-              </p>
-            </div>
           </div>
           <div className="col-span-3">
             <Image
@@ -135,28 +113,52 @@ export default function Home() {
               alt="thumbnail"
               className="rounded-3xl"
             />
-            <div className="pt-12">
-              <h2 className="text-2xl flex flex-row justify-start items-center gap-2">
-                <Image
-                  src="/svg/coverage.svg"
-                  height={64}
-                  width={64}
-                  alt="target-ico"
-                  className="size-8"
-                />{" "}
-                Our Coverage
-              </h2>
-              <p className="text-lg pt-4">
-                Our services currently cover the towns highlighted in green on
-                the map. We&apos;re committed to growing and improving, and
-                we&apos;re actively working to expand our coverage. Have a town
-                you want that we don’t have? Tell us! We prioritize our
-                customers interests above all else.
-              </p>
-            </div>
           </div>
         </div>
-        <div className="py-20">
+        <div className="grid grid-cols-7 gap-12">
+          <div className="col-span-4">
+            <h2 className="text-2xl flex flex-row justify-start items-center gap-2">
+              <Image
+                src="/svg/target.svg"
+                height={64}
+                width={64}
+                alt="target-ico"
+                className="size-8"
+              />{" "}
+              Our Mission
+            </h2>
+            <p className="text-lg pt-4">
+              Spyglass is a cutting-edge automated software tool that aims to
+              revolutionize surveying and property management. By leveraging AI
+              and machine learning, we gather and compile relevant public
+              records, empowering our users to streamline their workflows, save
+              valuable time, and optimize costs for every job. We are committed
+              to putting the latest and greatest technology to work for you,
+              striving for efficiency, accuracy, and success in all your
+              endeavors.
+            </p>
+          </div>
+          <div className="col-span-3">
+            <h2 className="text-2xl flex flex-row justify-start items-center gap-2">
+              <Image
+                src="/svg/coverage.svg"
+                height={64}
+                width={64}
+                alt="target-ico"
+                className="size-8"
+              />{" "}
+              Our Coverage
+            </h2>
+            <p className="text-lg pt-4">
+              Our services currently cover the towns highlighted in green on the
+              map. We&apos;re committed to growing and improving, and we&apos;re
+              actively working to expand our coverage. Have a town you want that
+              we don’t have? Tell us! We prioritize our customers interests
+              above all else.
+            </p>
+          </div>
+        </div>
+        <div className="py-20 pt-[200px]">
           <TextTitle>Contact Us</TextTitle>
 
           <div className="w-full grid grid-cols-2 gap-6">
@@ -259,15 +261,14 @@ export default function Home() {
           <div className="flex-grow">
             <textarea
               rows={4}
-              className="w-full border-primary border rounded-xl py-6 px-8 text-lg"
+              className="w-full border-primary border rounded-xl py-6 px-8 text-lg bg-transparent"
               placeholder="type here.."
             />
             <div className="flex flex-row justify-end items-start pt-4">
               <button
-                className="flex justify-center items-center gap-2 px-6 py-3 rounded-xl"
+                className="flex justify-center items-center gap-2 px-10 py-3 rounded-xl"
                 style={{
-                  boxShadow:
-                    "5px 5px 10px #222 inset, 5px 5px 10px #000, 3px 3px 5px #888",
+                  boxShadow: "5px 5px 5px #444 inset, 5px 5px 10px #000",
                 }}
               >
                 Send <SendHorizonal />
